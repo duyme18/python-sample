@@ -50,7 +50,9 @@ for turtle in range(0, 4):
 def random_walk(turtles):
     global run
     i = 0
+
     for turtle in turtles:
+
         turtle.forward(random.randint(1, 10))
         # Kiểm tra điều kiện cán đích
         # Khi 1 con cán đích thì dừng lại
